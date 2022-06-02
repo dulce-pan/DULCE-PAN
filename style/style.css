@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(descarga.png) no-repeat center; 
+    background-size: 20%;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background: #2a2a20;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #987669;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #fff000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: #fff002;
+}
+
+.about {
+    background: #c2a91a;
+    color: #fff;
+}
+
+.saucers {
+     padding-bottom: 30px;
+     background: #282843;
+     color: #fff;
+}
+
+.price {
+    background: url(images.jpg) no-repeat center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-size: cover;
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #302320;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.list-saucers {
+    display: inline-flex;
+}
+
